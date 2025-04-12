@@ -403,6 +403,12 @@ article .icon {
   background-attachment: fixed;
 }
 
+#projects .section__text__p1,
+#projects .title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 .color-container {
   border: 1px solid #ddd; /* Ensures border visibility */
   background: white;
