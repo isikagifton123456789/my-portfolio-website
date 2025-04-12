@@ -180,14 +180,11 @@ section {
 /* PROFILE SECTION */
 
 #profile {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  height: 80vh;
-  background: linear-gradient(to bottom, #3498db, #9b59b6);
+  background: url('./assets/profile-bg.jpg') no-repeat center center/cover;
   color: white;
   text-align: center;
   padding: 4rem 2rem;
+  background-attachment: fixed;
 }
 
 .section__pic-container {
@@ -296,6 +293,10 @@ section {
 
 #about {
   position: relative;
+  background: url('./assets/about-bg.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 4rem 2rem;
+  background-attachment: fixed;
 }
 
 .about-containers {
@@ -349,6 +350,10 @@ section {
 
 #experience {
   position: relative;
+  background: url('./assets/experience-bg.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 4rem 2rem;
+  background-attachment: fixed;
 }
 
 .experience-sub-title {
@@ -392,7 +397,10 @@ article .icon {
   justify-content: space-around; /* Even spacing between items */
   gap: 1rem; /* Adds spacing between items */
   padding: 2rem; /* Adds padding around the projects section */
-  background: #ecf0f1;
+  background: url('./assets/projects-bg.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 4rem 2rem;
+  background-attachment: fixed;
 }
 
 .color-container {
@@ -483,10 +491,11 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0 1rem;
-  background: #2c3e50;
+  background: url('./assets/footer-bg.jpg') no-repeat center center/cover;
   color: white;
   text-align: center;
   padding: 2rem;
+  background-attachment: fixed;
 }
 
 footer p {
