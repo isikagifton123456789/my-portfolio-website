@@ -11,6 +11,9 @@ body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(to bottom, #f0f4f8, #d9e2ec);
   color: #333;
+  position: relative;
+  z-index: 1;
+  color: white;
 }
 
 html {
@@ -192,7 +195,7 @@ section {
 }
 
 .background-video {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
