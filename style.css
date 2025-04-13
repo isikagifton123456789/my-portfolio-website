@@ -137,7 +137,11 @@ a:hover {
   width: fit-content;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.3 ease-in-out;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.menu-links.open {
+  max-height: 300px;
 }
 
 .menu-links a {
@@ -147,15 +151,15 @@ a:hover {
   font-size: 1.5rem;
   color: black;
   text-decoration: none;
-  transition: all 0.3 ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu-links a:hover {
+  color: #2ecc71; /* Green hover effect */
 }
 
 .menu-links li {
   list-style: none;
-}
-
-.menu-links.open {
-  max-height: 300px;
 }
 
 .hamburger-icon.open span:first-child {
