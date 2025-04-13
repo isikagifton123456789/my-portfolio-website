@@ -16,16 +16,32 @@ body {
   color: white;
 }
 
+/* Add a background overlay */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: -1; /* Ensure it stays behind the content */
+}
+
 html {
   scroll-behavior: smooth;
 }
 
+h1, h2, h3, p, a {
+  color: #ffffff; /* Bright white text */
+}
+
 h1, h2, h3 {
-  color: #043112;
+  color: #ffffff;
 }
 
 p {
-  color: #555;
+  color: #ffffff;
 }
 
 /* TRANSITION */
@@ -70,12 +86,12 @@ a:hover {
 }
 
 .nav-links a {
-  color: white;
+  color: #f1f1f1; /* Slightly off-white for navigation links */
   font-weight: 500;
 }
 
 .nav-links a:hover {
-  color: #f1c40f;
+  color: #f39c12; /* Bright orange for hover effect */
 }
 
 .logo {
@@ -228,11 +244,13 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  color: #e0e0e0; /* Light gray for subtitles */
 }
 
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  color: #e0e0e0; /* Light gray for subtitles */
 }
 
 .title {
@@ -267,12 +285,15 @@ section {
   padding: 1rem;
   border-radius: 2rem;
   transition: transform 0.3s ease, background-color 0.3s ease;
+  color: #ffffff; /* White text for buttons */
+  background-color: rgba(255, 255, 255, 0.2); /* Transparent white background */
+  border: 1px solid #ffffff; /* White border */
 }
 
 .btn:hover {
   transform: scale(1.1);
-  background-color: #2ecc71;
-  color: white;
+  background-color: #f39c12; /* Bright orange on hover */
+  color: #000000; /* Black text on hover */
 }
 
 .btn-color-1,
