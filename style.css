@@ -375,7 +375,7 @@ section {
 }
 
 .details-container h3 {
-  color: #2c3e50; /* Slightly darker heading color */
+  color: #2ecc71; /* Green color for subheadings */
 }
 
 .details-container p {
@@ -408,7 +408,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: #2ecc71; /* Green color for subheadings in the Experience section */
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -561,4 +561,9 @@ footer {
 footer p {
   text-align: center;
   margin: 0;
+}
+
+/* Add green color for subheadings in other sections if needed */
+.section__text__p1, .section__text__p2 {
+  color: #2ecc71; /* Green color for subtitles */
 }
