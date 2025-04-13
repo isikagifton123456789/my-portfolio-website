@@ -367,11 +367,19 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #f9f9f9; /* Light gray background for contrast */
+  color: #333; /* Dark text for readability */
+  border: 1px solid #ddd; /* Subtle border for better separation */
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
   text-align: center;
+}
+
+.details-container h3 {
+  color: #2c3e50; /* Slightly darker heading color */
+}
+
+.details-container p {
+  color: #555; /* Medium gray for paragraph text */
 }
 
 .section-container {
@@ -390,9 +398,13 @@ section {
 #experience {
   position: relative;
   background: url('./assets/experience-bg.jpg') no-repeat center center/cover;
-  color: white;
+  color: #333; /* Dark text for better contrast on white background */
   padding: 4rem 2rem;
   background-attachment: fixed;
+}
+
+#experience h1, #experience h2, #experience h3, #experience p {
+  color: #333; /* Ensure all text in this section is dark */
 }
 
 .experience-sub-title {
