@@ -244,13 +244,13 @@ section {
 
 .section__text__p1 {
   text-align: center;
-  color: #e0e0e0; /* Light gray for subtitles */
+  color: #2ecc71; /* Green color for subtitles */
 }
 
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
-  color: #e0e0e0; /* Light gray for subtitles */
+  color: #2ecc71; /* Green color for subtitles */
 }
 
 .title {
@@ -463,6 +463,10 @@ article .icon {
     margin-bottom: 2rem;
 }
 
+#projects .experience-sub-title {
+  color: #2ecc71; /* Green color for project titles */
+}
+
 .color-container {
   border: 1px solid #ddd; /* Ensures border visibility */
   background: white;
@@ -556,6 +560,10 @@ footer {
   text-align: center;
   padding: 2rem;
   background-attachment: fixed;
+}
+
+footer h1, footer p {
+  color: #2ecc71; /* Green color for footer headings and text */
 }
 
 footer p {
