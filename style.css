@@ -458,31 +458,24 @@ article .icon {
   background-attachment: fixed;
 }
 
-#projects .section__text__p1,
+#projects .section__text__p1 {
+  color: #2ecc71; /* Green color */
+  text-align: center; /* Center-align the text */
+  font-weight: 600;
+  font-size: 1.75rem; /* Match the font size of "Explore My" */
+  margin-bottom: 0.5rem; /* Add spacing below the text */
+}
+
 #projects .title {
   color: #2ecc71; /* Green color */
   text-align: center; /* Center-align the text */
   font-weight: 600;
-  font-size: 1.75rem; /* Match the font size of "Explore My Experience" */
-  margin-bottom: 2rem; /* Add spacing below the text */
-}
-
-#projects .title {
-  font-size: 3rem; /* Larger font size for the main title */
-  margin-top: 0.5rem; /* Add spacing above the title */
+  font-size: 3rem; /* Match the font size of "Experience" */
+  margin-top: 0; /* Remove extra spacing above the title */
 }
 
 #projects .experience-sub-title {
   color: #2ecc71; /* Green color for project titles */
-}
-
-#projects .section__text__p1,
-#projects .title {
-  color: #2ecc71; /* Green color */
-  text-align: center; /* Center-align the text */
-  font-weight: 600;
-  font-size: 1.75rem; /* Match the font size of "Explore My Experience" */
-  margin-bottom: 2rem; /* Add spacing below the text */
 }
 
 .color-container {
