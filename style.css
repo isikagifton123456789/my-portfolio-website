@@ -59,8 +59,11 @@ nav {
   justify-content: space-between; /* Space between logo and menu links */
   align-items: center;
   padding: 1rem 2rem;
-  background: linear-gradient(to right, #3498db, #2ecc71); /* Gradient background */
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Keep the nav bar fixed at the top */
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other content */
 }
 
 /* Logo Styling */
@@ -234,8 +237,7 @@ section {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1;
-  background: transparent;
+  z-index: -1; /* Ensure the video stays behind all content */
 }
 
 .section__pic-container {
