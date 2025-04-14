@@ -75,6 +75,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: flex-start; /* Align the logo to the left */
+  color: #2ecc71; /* Green color for "GIFT" */
 }
 
 .logo span:first-child {
@@ -252,6 +253,12 @@ section {
 .section__pic-container img {
   border-radius: 50%;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1rem;
+  max-width: 400px; /* Limit the maximum width */
+  margin: auto;
 }
 
 .section__text {
@@ -299,11 +306,12 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
 }
 
 .btn {
   font-weight: bold;
-  padding: 1rem;
+  padding: 1rem 2rem;
   border-radius: 2rem;
   transition: transform 0.3s ease, background-color 0.3s ease;
   color: #ffffff; /* White text for buttons */
@@ -457,6 +465,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 1rem;
 }
 
 .article-container {
@@ -694,5 +703,11 @@ footer p {
   .color-container {
     width: 100%;
     margin-bottom: 1rem;
+  }
+
+  .experience-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
