@@ -463,7 +463,8 @@ article .icon {
   color: #2ecc71; /* Green color */
   text-align: center; /* Center-align the text */
   font-weight: 600;
-  margin-bottom: 1rem; /* Add spacing below the text */
+  font-size: 1.75rem; /* Match the font size of "Explore My Experience" */
+  margin-bottom: 2rem; /* Add spacing below the text */
 }
 
 #projects .experience-sub-title {
