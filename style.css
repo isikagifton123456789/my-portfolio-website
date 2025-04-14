@@ -66,10 +66,39 @@ nav {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Navigation Links */
 .nav-links {
+  display: flex;
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+}
+
+.nav-links a {
+  color: #f1f1f1; /* Slightly off-white for navigation links */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #f39c12; /* Bright orange for hover effect */
+}
+
+/* Navigation Bar Logo */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase; /* Make the text uppercase */
+  display: flex;
+  align-items: center;
+}
+
+.logo span:first-child {
+  color: #2ecc71; /* Green color for "GIFT" */
+}
+
+.logo span:last-child {
+  color: #ffffff; /* White color for "ON" */
 }
 
 a {
@@ -83,19 +112,6 @@ a:hover {
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
-}
-
-.nav-links a {
-  color: #f1f1f1; /* Slightly off-white for navigation links */
-  font-weight: 500;
-}
-
-.nav-links a:hover {
-  color: #f39c12; /* Bright orange for hover effect */
-}
-
-.logo {
-  font-size: 2rem;
 }
 
 .logo:hover {
