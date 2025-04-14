@@ -53,17 +53,31 @@ a,
 
 /* DESKTOP NAV */
 
-nav,
-.nav-links {
+/* Navigation Bar */
+nav {
   display: flex;
+  justify-content: space-between; /* Space between logo and menu links */
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #3498db, #2ecc71); /* Gradient background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-nav {
-  justify-content: space-around;
+/* Logo Styling */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase; /* Make the text uppercase */
+  display: flex;
   align-items: center;
-  height: 17vh;
-  background: linear-gradient(to right, #3498db, #2ecc71);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo span:first-child {
+  color: #2ecc71; /* Green color for "GIFT" */
+}
+
+.logo span:last-child {
+  color: #ffffff; /* White color for "ON" */
 }
 
 /* Navigation Links */
@@ -82,23 +96,6 @@ nav {
 
 .nav-links a:hover {
   color: #f39c12; /* Bright orange for hover effect */
-}
-
-/* Navigation Bar Logo */
-.logo {
-  font-size: 2rem;
-  font-weight: bold;
-  text-transform: uppercase; /* Make the text uppercase */
-  display: flex;
-  align-items: center;
-}
-
-.logo span:first-child {
-  color: #2ecc71; /* Green color for "GIFT" */
-}
-
-.logo span:last-child {
-  color: #ffffff; /* White color for "ON" */
 }
 
 a {
