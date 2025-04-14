@@ -71,10 +71,17 @@ nav {
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase; /* Make the text uppercase */
-  color: #2ecc71; /* Green color for "GIFTON" */
   display: flex;
   align-items: center;
   justify-content: flex-start; /* Align the logo to the left */
+}
+
+.logo span:first-child {
+  color: #2ecc71; /* Green color for "GIFT" */
+}
+
+.logo span:last-child {
+  color: #ffffff; /* White color for "ON" */
 }
 
 /* Navigation Links */
