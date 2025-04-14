@@ -426,6 +426,18 @@ section {
   margin: auto 0;
 }
 
+/* Images with Rounded Corners */
+.section__pic-container img,
+.about-pic {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1rem; /* Add rounded corners */
+  max-width: 400px; /* Limit the maximum width */
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
