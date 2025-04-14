@@ -460,11 +460,10 @@ article .icon {
 
 #projects .section__text__p1,
 #projects .title {
-  
-    color: rgb(85, 85, 85);
-    font-weight: 600;
-    font-size: 1.75rem;
-    margin-bottom: 2rem;
+  color: #2ecc71; /* Green color */
+  text-align: center; /* Center-align the text */
+  font-weight: 600;
+  margin-bottom: 1rem; /* Add spacing below the text */
 }
 
 #projects .experience-sub-title {
