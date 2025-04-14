@@ -384,7 +384,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 50%;
   width: 100%; /* Ensure the image takes the full width of its container */
   height: auto; /* Maintain the aspect ratio */
   object-fit: cover; /* Ensure the image covers the container without distortion */
@@ -426,13 +426,13 @@ section {
   margin: auto 0;
 }
 
-/* Images with Rounded Corners */
+/* Images with More Rounded Corners */
 .section__pic-container img,
 .about-pic {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 1rem; /* Add rounded corners */
+  border-radius: 50%; /* Fully rounded corners for circular appearance */
   max-width: 400px; /* Limit the maximum width */
   margin: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
