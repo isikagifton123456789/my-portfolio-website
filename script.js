@@ -7,11 +7,14 @@ function toggleMenu() {
 
 document.addEventListener("DOMContentLoaded", () => {
   const video = document.getElementById("background-video");
-
-  video.addEventListener("timeupdate", () => {
-    if (video.currentTime > video.duration - 0.1) {
-      video.currentTime = 0; // Reset the video to the start before it ends
-      video.play();
-    }
-  });
+  if (video) {
+    // Modern browsers support the loop attribute.
+    // The following fallback ensures looping works smoothly.
+    video.addEventListener("timeupdate", () => {
+      if (video.currentTime > video.duration - 0.1) {
+        video.currentTime = 0;
+        video.play();
+      }
+    });
+  }
 });
